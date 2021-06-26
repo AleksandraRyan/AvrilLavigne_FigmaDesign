@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero-img {
+  background: url('/img/Avril\ Lavigne\ 3.png');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  background-attachment: fixed;
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar-brand {
+  font-size: 32px;
+}
+
+.nav-link {
+  font-size: 19px;
+  color: #836f6f !important;
+  margin: 0 10px;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: #f5ebeb !important;
+}
+
+.hero-section {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 70vh;
+}
+
+.hero-section h2 {
+  font-size: 72px;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+.hero-section p {
+  color: #000;
+}
+
+/* Media Queries */
+@media (max-width: 1075px) {
+  .hero-img {
+    background: url('/img/Avril\ Lavigne\ 3.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-attachment: fixed;
+    background-position: right;
+  }
+}
+
+@media (max-width: 991px) {
+  .nav-link {
+    color: #000 !important;
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section p {
+    color: #f5ebeb;
+  }
+}
